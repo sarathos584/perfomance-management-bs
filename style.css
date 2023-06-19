@@ -292,6 +292,24 @@ footer .middle-footer a {
   line-height: 193.19%;
   color: #ffffff;
 }
+footer .middle-footer li {
+  list-style: none;
+}
+.lower-footer h4 {
+  position: relative;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 172.69%;
+  color: #ffffff;
+}
+.lower-footer h4::after{
+  content: '';
+  height: 1px;
+  display: block;
+  position: absolute;
+  width: 11.5%;
+  background: #ffffff;
+}
 @media screen and (max-width: 768px) {
   .lower-nav {
     display: none;
