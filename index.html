@@ -32,7 +32,7 @@
       <section class="upper-nav container">
         <nav class="navbar navbar-expand-lg navbar-light py-0">
           <a class="navbar-brand" href="#"
-            ><img src="./assets/logo-1.svg" alt="company logo"
+            ><img src="./assets/logo-1.svg" alt="company logo" id="navLogo"
           /></a>
           <button
             class="navbar-toggler"
@@ -94,7 +94,11 @@
           </div>
         </nav>
         <div class="text-center my-3">
-          <img src="./assets/logo-2.svg" alt="company logo" />
+          <img
+            class="large-logo"
+            src="./assets/logo-2.svg"
+            alt="company logo"
+          />
         </div>
       </section>
       <section class="lower-nav">
@@ -120,7 +124,6 @@
               </li>
             </ul>
           </nav>
-          h2
         </div>
       </section>
       <div
@@ -613,8 +616,8 @@
       </div>
     </section>
     <footer>
-      <div class="container">
-        <div class="upper-footer">
+      <div class="container d-flex flex-wrap justify-content-center wrapper">
+        <div class="upper-footer footers">
           <div class="footer-logo">
             <img
               src="./assets/footer-logo.svg"
@@ -628,7 +631,7 @@
             volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
           </p>
         </div>
-        <div class="middle-footer">
+        <div class="middle-footer footers">
           <ul>
             <li><a href="#">Training </a></li>
             <li><a href="#"> National </a></li>
@@ -639,9 +642,29 @@
             <li><a href="#"> Consulting</a></li>
           </ul>
         </div>
-        <div class="lower-footer">
+        <div class="lower-footer footers p">
           <h4>Connect With Us</h4>
-        </div>
+          <div>
+            <img src="./assets/footer-phone-icon.svg "alt="phone icon"  class="mr-2"><a href="#"
+              >877-992-9521
+            </a>
+          </div>
+          <div>
+            <img src="./assets/footer-mail-icon.svg" alt="mail icon"  class="mr-2"/><a href="#"
+              >hello@theperformanceinstitute.com</a
+            >
+          </div>
+          <div class="social-icons d-flex">
+            <img src="./assets/fb-icon.svg" alt="facebook icon" />
+            <img src="./assets/twitter-icon.svg" alt="twitter icon" />
+            <img src="./assets/li-icon.svg" alt="linked in icon" />
+          </div>
+        </div> 
+      </div>
+      <div class="hr" style="max-width: 1200px; margin: 30px auto;"></div>
+      <div class="container d-flex justify-content-between credits">
+        <p>© 2022 The Performance Institute. All Rights Reserved.</p>
+        <p>Terms and Conditions of Use | Privacy Policy</p>
       </div>
     </footer>
   </body>
