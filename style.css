@@ -433,5 +433,8 @@ footer .wrapper{
     padding: 5px 7px;
     margin-top: .4rem;
   }
+  .profile{
+    flex-direction: column;
+  }
 }
 
